@@ -4,29 +4,6 @@ class: center
 <br><br>
 # Mastering Infrastructure as Code Workshop
 ### Build AWS Resources with Infrastructure as Code
-???
-<!---
-Mastering Infrastructure as Code Workshop
-Build AWS Resources with Infrastructure as Code
-
-This slide presentation is stored as Markdown code, specifically using the RemarkJS engine to render it. All standard markdown tags are supported, and you can also use some HTML within this document.
-
-If you need to change the look and feel of the slide deck just use the style.css and remark_settings.js files to suit your needs. The content in this file is picked up by index.html when the page is loaded.
-
-HTML comments like this one will show up in the source code, but not in the slides or speaker notes.
---->
-
-Welcome to the beginner's guide to Terraform on AWS. This slide deck is written entirely in Markdown language, which means you can make edits or additions, then submit a pull request to add your changes to the master copy. To make edits to the slide deck simply fork this repository, edit the Markdown files, and submit a pull request with your changes.
-
-The Markdown content is contained in the docs/ subdirectories.
-
-Here are some helpful keyboard shortcuts for the instructor or participant:
-
-⬆ ⬇ ⬅ ➡ - Navigate back and forth
-P         - Toggle presenter view
-C         - Pop an external window for presentation
-
-Instructor notes are included in plain text, narrative parts are in **bold**. You can use the narrative quotes or change them to suit your own presentation style.
 
 ---
 name: Link-to-Slide-Deck
@@ -34,7 +11,7 @@ name: Link-to-Slide-Deck
 <br><br><br>
 Follow along on your own computer at this link:
 
-### <https://git.io/>
+### <https://git.io/JfQrY>
 
 ---
 name: Introduction
@@ -52,13 +29,12 @@ class: img-right-full
 
 
 ???
-Use this slide to introduce yourself, give a little bit of your background story, then go around the room and have all your participants introduce themselves.
+介紹自己，提一些關於自己的背景故事，走一遍教室，讓學員介紹他們自己
 
-The favorite text editor question is a good ice breaker, but perhaps more importantly it gives you an immediate gauge of how technical your users are.
+問問他們最喜歡的文字編輯器是什麼，並且試著了解他們的技術水平
 
-**There are no wrong answers to this question. Unless you say Notepad. Friends don't let friends write code in Notepad.**
-
-**If you don't have a favorite text editor, that's okay! Our cloud lab has Visual Studio Code preinstalled. VSC is a free programmer's text editor for Microsoft, and it has great Terraform support. Most of this workshop will be simply copying and pasting code, so if you're not a developer don't fret. Terraform is easy to learn and fun to work with.**
+ **帶到課程中使用到的是 VS Code，他對於 Terraform 的支援性很好，練習中過程大部分都有程式碼可以參考，所以對於 IaC 領域一竅不通的人也不用感到害怕，Terraform 是很容易學會的，大家放鬆心情愉快地參加今天的課程即可
+**
 
 ---
 name: IaC Day 1
@@ -74,9 +50,9 @@ name: IaC Day 1
 5. Manage and Change Infrastructure State<br>
 
 ???
-This workshop should take roughly three hours to complete.
+今天整個 Workshop 會花六個小時左右
 
-**Here is our agenda for today's training. The format is simple, you'll hear a lecture and view slides on each topic, then participate in a hands-on lab about that topic. We'll alternate between lecture and lab, with a couple of breaks thrown in.**
+**底下是今天的上課內容，每一個主題都會有投影片來講解，有些主題有讓大家實際動手做的 Lab，然後再課程的進行中會穿插一些休息時間**
 
 ---
 name: IaC Day 2
@@ -108,6 +84,5 @@ class: col-2
 </div>
 
 ???
-**This is our table of contents. We have a lot of ground to cover today. The workshop will alternate between lecture and lab exercise so we don't get bored and fall asleep. We'll be taking breaks roughly every 90 minutes, with a 45 minute break for lunch.**
-
-Make sure your EAM or sponsor have arranged for lunch if presenting this as a full-day workshop.
+**而今天的課程會分成兩個大的部分，分別是 IaC Day 1 跟 IaC Day 2，Day 1 的內容涵蓋剛學習 Terraform 時需要注意的地方；而 Day 2 的內容則是聚焦在如何解決當整個團隊要一起使用 Terraform 來協作開發時會遇到的問題
+**
