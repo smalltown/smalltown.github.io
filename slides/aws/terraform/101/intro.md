@@ -1,6 +1,6 @@
 name: Mastering Infrastructure as Code Workshop
 class: center
-![:scale 60%](images/intro/tf_aws.png)
+![:scale 60%](images/intro/cover.png)
 <br><br>
 # Mastering Infrastructure as Code Workshop
 ### Build AWS Resources with Infrastructure as Code
