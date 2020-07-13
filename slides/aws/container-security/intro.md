@@ -11,7 +11,7 @@ name: Link-to-Slide-Deck
 <br><br><br>
 Follow along on your own computer at this link:
 
-### <https://git.io/>
+### <https://git.io/JJYbI>
 
 ---
 name: Introduction
@@ -38,10 +38,11 @@ class: img-right-full
 name: Outline
 # Outline
 
-1. Workshop Environment Setup<br>
-2. Kubernetes Basic Security I<br>
-3. Kubernetes Basic Security II<br>
-4. Policy as Code<br>
+## CH00 Workshop Environment Setup<br>
+## CH01 Container Image Building<br>
+## CH02 Kubernetes Basic Security I<br>
+## CH03 Kubernetes Basic Security II<br>
+## CH04 Policy as Code<br>
 
 ???
 今天整個 Workshop 會花六個小時左右
