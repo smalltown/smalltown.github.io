@@ -21,7 +21,7 @@ class: img-right-full
 
 # Hello!
 ## I am smalltown
-  - MaiCoin Lead Site Reliability Engineering
+  - MaiCoin Group Lead Site Reliability Engineering
   - Taipei HashiCorp User Group Organizer
   - AWS User Group Taiwan Staff
 <br><br><br>
